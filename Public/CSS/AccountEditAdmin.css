@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#html{
+  height: 100%;
+}
+#body{
+  min-height:100%;
+}
+#main_body{
+  margin: 0%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  flex-direction: column;
+}
+
+#main_top{
+  background-color: aqua;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+
+}
+#top_left_logo{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+#name_bar{
+  display: flex;
+  flex-direction: row;
+}
+#main_bottom{
+  background-color: black;
+  width: 100%;
+  height: 80%;
+}
